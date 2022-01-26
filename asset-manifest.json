@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b1b9741d.css",
-    "main.js": "/portfolio/static/js/main.ada49624.js",
+    "main.css": "/portfolio/static/css/main.f2f2b448.css",
+    "main.js": "/portfolio/static/js/main.a8c867b8.js",
     "static/js/787.774729bc.chunk.js": "/portfolio/static/js/787.774729bc.chunk.js",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.d3fc2db02ab33c97be5a.pdf",
     "static/media/big.png": "/portfolio/static/media/big.5cc8d2b89ddec5144491.png",
     "static/media/logo.svg": "/portfolio/static/media/logo.08da9844f0774973c6f69494bfe263fe.svg",
     "static/media/background.png": "/portfolio/static/media/background.b8add0b9c6167a4b5d0b.png",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.c15e8b0386a1b5bcc064.pdf",
     "static/media/SFMonoRegular.woff": "/portfolio/static/media/SFMonoRegular.461031a25d3492954443.woff",
     "static/media/git.png": "/portfolio/static/media/git.9d1eca4e18f33fbe3c05.png",
     "static/media/me.jpg": "/portfolio/static/media/me.231f550ba9464429bd49.jpg",
     "static/media/Calibre-Regular.woff": "/portfolio/static/media/Calibre-Regular.98526589fa32315c5521.woff",
     "static/media/hamberger.svg": "/portfolio/static/media/hamberger.92291e5d38f8cae503aa0bad9e93c983.svg",
     "index.html": "/portfolio/index.html",
-    "main.b1b9741d.css.map": "/portfolio/static/css/main.b1b9741d.css.map",
-    "main.ada49624.js.map": "/portfolio/static/js/main.ada49624.js.map",
+    "main.f2f2b448.css.map": "/portfolio/static/css/main.f2f2b448.css.map",
+    "main.a8c867b8.js.map": "/portfolio/static/js/main.a8c867b8.js.map",
     "787.774729bc.chunk.js.map": "/portfolio/static/js/787.774729bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1b9741d.css",
-    "static/js/main.ada49624.js"
+    "static/css/main.f2f2b448.css",
+    "static/js/main.a8c867b8.js"
   ]
 }
