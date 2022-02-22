@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Calibre-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre-Regular'), url('Calibre-Regular.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'SF Mono Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('SF Mono Regular'), url('SFMonoRegular.woff') format('woff');
+        }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.exprience__Section{ 
+    margin-top: 200px;   
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start ;
+    justify-content: center;
+    
+}
+
+.exprience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:80%;
+}
+
+.exprience__heading1{
+    display: flex;
+    font-size: 32px;
+    line-height: 35px;    
+    font-family: 'SF Mono Regular';
+    color: #ccd6f6;
+}
+
+.main__Section{
+      
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start ;
+    justify-content: center;
+}
+.main1{
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width:80%;
+    justify-content: space-between;
+    
+}
+
+.designation li{
+    list-style-type: none;
+    width:100%;
+    font-size: 22px;
+    line-height: 35px;    
+    font-family: 'Calibre-Regular';
+    color: #ccd6f6;
+    padding-top: 30px;
+    cursor: pointer;
+
+}
+
+.designation li::before {
+    content: "▹";
+    padding-right: 5px;
+    color: #64ffda;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.designation li:hover {
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+
+.left{
+    flex:1;
+}
+.right{
+    flex:1;
+}
+
+.inter{
+    border: 1px solid #c9fff2;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    animation: moveLgo 0.8s ease-out forwards;
+}
+
+@keyframes moveLgo {
+    0% {
+        transform: translateX(80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.inter h2{
+    font-size: 28px;
+    line-height: 35px;    
+    font-family: 'Calibre-Regular';
+    color: #64ffda;
+}
+
+.inter h3{
+    font-size: 14px;
+    line-height: 35px;    
+    font-family: 'SF Mono Regular';
+    color:  #ccd6f6;
+}
+
+.inter p{
+    font-family: 'Calibre-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #8892b0;
+    margin-top: 10px;
+}
+
+.inter__tech{
+
+    list-style-type: none;
+    width:100%;
+    font-size: 18px;
+    line-height: 35px;    
+    font-family: 'Calibre-Regular';
+    color: #ccd6f6;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.inter__tech li::before {
+    content: "▹";
+    padding-right: 5px;
+    color: #64ffda;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+
+
+/* for associat */
+
+
+.associate{
+    border: 1px solid #c9fff2;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    animation: moveLgo 0.8s ease-out forwards;
+}
+
+@keyframes moveLgo {
+    0% {
+        transform: translateX(80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.associate h2{
+    font-size: 28px;
+    line-height: 35px;    
+    font-family: 'Calibre-Regular';
+    color: #64ffda;
+}
+
+.associate h3{
+    font-size: 14px;
+    line-height: 35px;    
+    font-family: 'SF Mono Regular';
+    color:  #ccd6f6;
+}
+
+.associate p{
+    font-family: 'Calibre-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #8892b0;
+    margin-top: 10px;
+}
+
+.associate__tech{
+
+    list-style-type: none;
+    width:100%;
+    font-size: 18px;
+    line-height: 35px;    
+    font-family: 'Calibre-Regular';
+    color: #ccd6f6;
+    margin-top: 20px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    
+
+}
+
+
+
+.associate__tech li::before {
+    content: "▹";
+    padding-right: 5px;
+    color: #64ffda;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+/* 
+For consultatn */
+
+
+
+
+
+.consultant{
+    border: 1px solid #c9fff2;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    animation: moveLgo 0.8s ease-out forwards;
+}
+
+@keyframes moveLgo {
+    0% {
+        transform: translateX(80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.consultant h2{
+    font-size: 28px;
+    line-height: 35px;    
+    font-family: 'Calibre-Regular';
+    color: #64ffda;
+}
+
+.consultant h3{
+    font-size: 18px;
+    line-height: 35px;    
+    font-family: 'SF Mono Regular';
+    color:  #ccd6f6;
+}
+
+.consultant p{
+    font-family: 'Calibre-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #8892b0;
+    margin-top: 10px;
+}
+
+.consultant__tech{
+
+    list-style-type: none;
+    width:100%;
+    font-size: 18px;
+    line-height: 35px;    
+    font-family: 'Calibre-Regular';
+    color: #ccd6f6;
+    margin-top: 20px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.consultant__tech li::before {
+    content: "▹";
+    padding-right: 5px;
+    color: #64ffda;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .main1{
+        margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width:90%;
+    justify-content: space-between;
+    }
+
+    .designation{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+    }
+
+    .designation li{
+        list-style-type: none;
+    width:100%;
+    font-size: 14px;
+       
+    font-family: 'Calibre-Regular';
+    color: #ccd6f6;
+    padding-top: 30px;
+
+    }
+    .right{
+        margin-top: 40px;
+    }
+
+    .exprience__heading1{
+        font-size: 26px;
+        line-height: 29px;
+        font-weight: 600;
+        
+    }
+
+    .exprience h1{
+        font-size: 20px;
+        
+        
+    }
+
+    
+
+}

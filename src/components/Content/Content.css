@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@font-face {
+    font-family: 'Calibre-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre-Regular'), url('Calibre-Regular.woff') format('woff');
+    }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container1{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start ;
+    justify-content: center;
+    animation: loader 1s ease forwards ;
+}
+@keyframes loader{
+    0%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+#correct{
+    position: relative;
+    
+}
+
+@keyframes oscil1 {
+    from {transform: rotate(0deg); animation-timing-function: ease-out;}
+  25% {transform: rotate(20deg); animation-timing-function: ease-in;}
+  50% {transform: rotate(0deg); animation-timing-function: ease-out;}
+  75% {transform: rotate(-20deg); animation-timing-function: ease-in;}
+  to {transform: rotate(0deg);}
+  }
+@keyframes moveIt {
+    0%, 100% {
+      transform: rotate(45deg);
+    }
+    50% {
+      transform: rotate(-45deg);
+    }
+  }
+    
+#correct::after {
+    content: " ";
+    background: url(data:image/svg+xml,%3C!--%20Generator%3A%20Adobe%20Illustrator%2019.0.0%2C%20SVG%20Export%20Plug-In%20%20--%3E%0A%3Csvg%20version%3D%221.1%22%0A%09%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aa%3D%22http%3A%2F%2Fns.adobe.com%2FAdobeSVGViewerExtensions%2F3.0%2F%22%0A%09%20x%3D%220px%22%20y%3D%220px%22%20width%3D%221024.36px%22%20height%3D%22915.351px%22%20viewBox%3D%220%200%201024.36%20915.351%22%0A%09%20style%3D%22enable-background%3Anew%200%200%201024.36%20915.351%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cdefs%3E%0A%3C%2Fdefs%3E%0A%3Cg%3E%0A%09%3Cg%3E%0A%09%09%3ClinearGradient%20id%3D%22SVGID%5f1%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22214.2636%22%20y1%3D%22457.6754%22%20x2%3D%22235.2184%22%20y2%3D%22457.6754%22%3E%0A%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%3C%2FlinearGradient%3E%0A%09%09%3Crect%20x%3D%22214.264%22%20style%3D%22fill%3Aurl%28%23SVGID%5f1%5f%29%3B%22%20width%3D%2220.955%22%20height%3D%22915.351%22%2F%3E%0A%09%3C%2Fg%3E%0A%09%3Cg%3E%0A%09%09%3ClinearGradient%20id%3D%22SVGID%5f2%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%22%20y1%3D%22112.0637%22%20x2%3D%22224.1274%22%20y2%3D%22112.0637%22%3E%0A%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%3C%2FlinearGradient%3E%0A%09%09%3Cpolygon%20style%3D%22fill%3Aurl%28%23SVGID%5f2%5f%29%3B%22%20points%3D%220%2C194.496%20194.496%2C0%20224.127%2C0%200%2C224.127%20%09%09%22%2F%3E%0A%09%3C%2Fg%3E%0A%09%3Cg%3E%0A%09%09%3ClinearGradient%20id%3D%22SVGID%5f3%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22225.3596%22%20y1%3D%22325.0716%22%20x2%3D%22890.3185%22%20y2%3D%22325.0716%22%3E%0A%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%3C%2FlinearGradient%3E%0A%09%09%3Cpolygon%20style%3D%22fill%3Aurl%28%23SVGID%5f3%5f%29%3B%22%20points%3D%22254.991%2C0%20890.318%2C635.327%20875.503%2C650.143%20225.36%2C0%20%09%09%22%2F%3E%0A%09%3C%2Fg%3E%0A%09%3Cg%3E%0A%09%09%3ClinearGradient%20id%3D%22SVGID%5f4%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%22%20y1%3D%22189.4467%22%20x2%3D%22580.1421%22%20y2%3D%22189.4467%22%3E%0A%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%3C%2FlinearGradient%3E%0A%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f4%5f%29%3B%22%20d%3D%22M0%2C70.628c18.125%2C32.468%2C27.211%2C74.16%2C14.601%2C126.555c2.931-0.113%2C6.226-0.185%2C9.838-0.185%0A%09%09%09c44.396%2C0%2C147.337%2C11.521%2C198.548%2C111.803c15.711-41.748%2C56.582-114.685%2C150.346-114.685c24.055%2C0%2C50.274%2C4.883%2C78.14%2C14.536%0A%09%09%09c-6.21-43.06-10.206-148.455%2C83.23-208.652h45.44C433.5%2C59.595%2C473.486%2C215.484%2C475.322%2C222.29l5.546%2C20.453l-19.62-8.009%0A%09%09%09c-31.979-13.051-61.559-19.666-87.916-19.666c-113.164%2C0-137.321%2C120.894-138.293%2C126.04l-7.045%2C37.784l-13.101-36.146%0A%09%09%09C174.057%2C230.113%2C68.098%2C217.952%2C24.439%2C217.952c-13.696%2C0-22.352%2C1.156-22.428%2C1.166L0%2C219.398V70.628z%22%2F%3E%0A%09%3C%2Fg%3E%0A%09%3Cg%3E%0A%09%09%3ClinearGradient%20id%3D%22SVGID%5f5%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%22%20y1%3D%22287.8138%22%20x2%3D%22799.4142%22%20y2%3D%22287.8138%22%3E%0A%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%3C%2FlinearGradient%3E%0A%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f5%5f%29%3B%22%20d%3D%22M0%2C362.571c107.756%2C42.684%2C196.194%2C143.099%2C224.111%2C177.296%0A%09%09%09c108.238-155.462%2C223.621-188.572%2C302.186-188.572c33.218%2C0%2C59.887%2C5.884%2C76.999%2C11.099C560.742%2C204.501%2C703.609%2C56.41%2C767.046%2C0%0A%09%09%09h32.368c-43.752%2C36.356-233.259%2C206.498-169.761%2C375.99l9.188%2C24.528l-23.569-11.423c-0.348-0.17-35.376-16.845-88.976-16.845%0A%09%09%09c-75.413%2C0-187.436%2C33.156-292.839%2C191.11l-8.191%2C12.268l-8.886-11.772C215.184%2C562.268%2C119.184%2C436.813%2C0%2C385.514V362.571z%22%2F%3E%0A%09%3C%2Fg%3E%0A%09%3Cg%3E%0A%09%09%3ClinearGradient%20id%3D%22SVGID%5f6%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%22%20y1%3D%22397.4959%22%20x2%3D%221024.3597%22%20y2%3D%22397.4959%22%3E%0A%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%3C%2FlinearGradient%3E%0A%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f6%5f%29%3B%22%20d%3D%22M0%2C548.391c111.91%2C70.924%2C197.089%2C174.818%2C224.306%2C210.179%0A%09%09%09c154.065-224.168%2C313.379-271.728%2C420.701-271.728c42.886%2C0%2C76.288%2C7.625%2C96.373%2C13.833%0A%09%09%09c-32.399-111.999%2C5.755-237.735%2C111.224-365.177C901.041%2C76.969%2C954.17%2C29.664%2C990.59%2C0h33.77%0A%09%09%09c-80.355%2C62.156-341.757%2C286.452-256.403%2C514.298l9.035%2C24.121l-23.308-10.966c-0.42-0.197-42.549-19.658-108.677-19.658%0A%09%09%09c-104.139%2C0-260.072%2C47.647-411.548%2C274.633l-8.385%2C12.562l-8.829-12.252C214.888%2C780.864%2C124.863%2C657.53%2C0%2C574.1V548.391z%22%2F%3E%0A%09%3C%2Fg%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+    top:55px;
+    transform-origin: center top;
+    /* transform: rotate(-10deg); */
+    /* animation: moveIt 2.5s ease-in-out infinite; */
+    /* animation: oscil1 6s infinite;  */
+  }
+
+  #correct::before {
+    content: " ";
+    background: url(data:image/svg+xml,%3C!--%20Generator%3A%20Adobe%20Illustrator%2019.0.0%2C%20SVG%20Export%20Plug-In%20%20--%3E%0A%3Csvg%20version%3D%221.1%22%0A%09%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Aa%3D%22http%3A%2F%2Fns.adobe.com%2FAdobeSVGViewerExtensions%2F3.0%2F%22%0A%09%20x%3D%220px%22%20y%3D%220px%22%20width%3D%22564.17px%22%20height%3D%221296.653px%22%20viewBox%3D%220%200%20564.17%201296.653%22%0A%09%20style%3D%22enable-background%3Anew%200%200%20564.17%201296.653%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cdefs%3E%0A%3C%2Fdefs%3E%0A%3Cg%3E%0A%09%3Cg%3E%0A%09%09%3Cg%3E%0A%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f1%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22164.3287%22%20y1%3D%221014.4246%22%20x2%3D%22399.8398%22%20y2%3D%221014.4246%22%3E%0A%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f1%5f%29%3B%22%20d%3D%22M281.363%2C875.454c0%2C0%2C237.112%2C82.292%2C40.457%2C277.942h-40.457h-32.782%0A%09%09%09%09C41.479%2C968.205%2C281.363%2C875.454%2C281.363%2C875.454z%22%2F%3E%0A%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f2%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22202.4766%22%20y1%3D%221186.4185%22%20x2%3D%22360.2405%22%20y2%3D%221186.4185%22%3E%0A%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f2%5f%29%3B%22%20d%3D%22M202.477%2C1186.418c0%2C34.307%2C35.33%2C62.117%2C78.887%2C62.117%0A%09%09%09%09c43.562%2C0%2C78.877-27.81%2C78.877-62.117c0-34.302-35.315-62.117-78.877-62.117C237.807%2C1124.302%2C202.477%2C1152.117%2C202.477%2C1186.418%0A%09%09%09%09z%22%2F%3E%0A%09%09%09%3Cg%3E%0A%09%09%09%09%3Cg%3E%0A%09%09%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f3%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22363.5656%22%20y1%3D%22892.3276%22%20x2%3D%22487.9457%22%20y2%3D%22892.3276%22%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f3%5f%29%3B%22%20d%3D%22M438.882%2C796.644l46.032%2C115.069c0%2C0%2C15.348%2C36.96-23.032%2C52.295l-98.317%2C24.004v-7.26%0A%09%09%09%09%09%09l86.49-30.68c0%2C0%2C25.794-6.973%2C14.647-49.512L438.882%2C796.644z%22%2F%3E%0A%09%09%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f4%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22359.1409%22%20y1%3D%22973.9208%22%20x2%3D%22564.1704%22%20y2%3D%22973.9208%22%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f4%5f%29%3B%22%20d%3D%22M564.17%2C892.326c0%2C0-34.502%2C96.233-16.729%2C143.312c0%2C0%2C2.087%2C18.822-18.826%2C19.878%0A%09%09%09%09%09%09l-169.474-25.106v-13.598l160.061%2C23.001c0%2C0%2C11.501%2C0%2C10.467-17.775C529.668%2C1022.037%2C517.104%2C972.873%2C564.17%2C892.326z%22%2F%3E%0A%09%09%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f5%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22356.6085%22%20y1%3D%221140.8014%22%20x2%3D%22529.7318%22%20y2%3D%221140.8014%22%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f5%5f%29%3B%22%20d%3D%22M486.879%2C1233.206c0%2C0%2C8.973-88.26%2C40.497-118.458c0%2C0%2C8.687-13.962-7.305-22.61%0A%09%09%09%09%09%09l-158.383-43.741l-5.08%2C16.735l150.223%2C35.772c0%2C0%2C9.004%2C4.306%2C1.525%2C17.837%0A%09%09%09%09%09%09C508.356%2C1118.74%2C480.141%2C1152.536%2C486.879%2C1233.206z%22%2F%3E%0A%09%09%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f6%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22341.0049%22%20y1%3D%221190.8105%22%20x2%3D%22442.5041%22%20y2%3D%221190.8105%22%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f6%5f%29%3B%22%20d%3D%22M354.777%2C1084.968l76.79%2C55.832c0%2C0%2C13.608%2C13.839%2C10.467%2C45.618%0A%09%09%09%09%09%09c0%2C0-15.701%2C63.163-94.153%2C110.235c0%2C0%2C76.257-74.022%2C77.864-110.235c0%2C0%2C4.953-28.889-11.347-41.446l-73.393-45.797%0A%09%09%09%09%09%09L354.777%2C1084.968z%22%2F%3E%0A%09%09%09%09%3C%2Fg%3E%0A%09%09%09%09%3Cg%3E%0A%09%09%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f7%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%2276.2217%22%20y1%3D%22892.3276%22%20x2%3D%22200.5893%22%20y2%3D%22892.3276%22%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f7%5f%29%3B%22%20d%3D%22M125.268%2C796.644L79.255%2C911.713c0%2C0-15.348%2C36.96%2C23.001%2C52.295l98.333%2C24.004v-7.26%0A%09%09%09%09%09%09l-86.464-30.68c0%2C0-25.794-6.973-14.662-49.512L125.268%2C796.644z%22%2F%3E%0A%09%09%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f8%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%220%22%20y1%3D%22973.9208%22%20x2%3D%22205.024%22%20y2%3D%22973.9208%22%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f8%5f%29%3B%22%20d%3D%22M0%2C892.326c0%2C0%2C34.512%2C96.233%2C16.734%2C143.312c0%2C0-2.092%2C18.822%2C18.827%2C19.878%0A%09%09%09%09%09%09l169.464-25.106v-13.598l-160.045%2C23.001c0%2C0-11.511%2C0-10.467-17.775C34.512%2C1022.037%2C47.076%2C972.873%2C0%2C892.326z%22%2F%3E%0A%09%09%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f9%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%2234.4251%22%20y1%3D%221140.8014%22%20x2%3D%22207.5519%22%20y2%3D%221140.8014%22%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f9%5f%29%3B%22%20d%3D%22M77.296%2C1233.206c0%2C0-8.958-88.26-40.523-118.458c0%2C0-8.671-13.962%2C7.316-22.61%0A%09%09%09%09%09%09l158.388-43.741l5.075%2C16.735l-150.223%2C35.772c0%2C0-9.004%2C4.306-1.545%2C17.837C55.783%2C1118.74%2C84.024%2C1152.536%2C77.296%2C1233.206z%22%0A%09%09%09%09%09%09%2F%3E%0A%09%09%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f10%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22121.6717%22%20y1%3D%221190.8105%22%20x2%3D%22223.1555%22%20y2%3D%221190.8105%22%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f10%5f%29%3B%22%20d%3D%22M209.414%2C1084.968l-76.82%2C55.832c0%2C0-13.588%2C13.839-10.452%2C45.618%0A%09%09%09%09%09%09c0%2C0%2C15.68%2C63.163%2C94.138%2C110.235c0%2C0-76.258-74.022-77.885-110.235c0%2C0-4.932-28.889%2C11.357-41.446l73.403-45.797%0A%09%09%09%09%09%09L209.414%2C1084.968z%22%2F%3E%0A%09%09%09%09%3C%2Fg%3E%0A%09%09%09%3C%2Fg%3E%0A%09%09%09%3Cg%3E%0A%09%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f11%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22294.4811%22%20y1%3D%221201.4386%22%20x2%3D%22319.0833%22%20y2%3D%221201.4386%22%3E%0A%09%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f11%5f%29%3B%22%20d%3D%22M294.481%2C1201.447c0%2C6.781%2C5.504%2C12.288%2C12.298%2C12.288%0A%09%09%09%09%09c6.794%2C0%2C12.304-5.507%2C12.304-12.288c0-6.797-5.51-12.304-12.304-12.304C299.985%2C1189.142%2C294.481%2C1194.65%2C294.481%2C1201.447z%22%2F%3E%0A%09%09%09%09%3ClinearGradient%20id%3D%22SVGID%5f12%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22243.6493%22%20y1%3D%221201.4386%22%20x2%3D%22268.2465%22%20y2%3D%221201.4386%22%3E%0A%09%09%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%09%3C%2FlinearGradient%3E%0A%09%09%09%09%3Cpath%20style%3D%22fill%3Aurl%28%23SVGID%5f12%5f%29%3B%22%20d%3D%22M243.649%2C1201.447c0%2C6.781%2C5.515%2C12.288%2C12.319%2C12.288%0A%09%09%09%09%09c6.789%2C0%2C12.278-5.507%2C12.278-12.288c0-6.797-5.489-12.304-12.278-12.304C249.164%2C1189.142%2C243.649%2C1194.65%2C243.649%2C1201.447z%22%0A%09%09%09%09%09%2F%3E%0A%09%09%09%3C%2Fg%3E%0A%09%09%3C%2Fg%3E%0A%09%09%3ClinearGradient%20id%3D%22SVGID%5f13%5f%22%20gradientUnits%3D%22userSpaceOnUse%22%20x1%3D%22282.0904%22%20y1%3D%22458.9633%22%20x2%3D%22282.0904%22%20y2%3D%22458.9633%22%3E%0A%09%09%09%3Cstop%20%20offset%3D%220%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%09%3Cstop%20%20offset%3D%221%22%20style%3D%22stop-color%3A%238892B0%22%2F%3E%0A%09%09%3C%2FlinearGradient%3E%0A%09%09%0A%09%09%09%3Cline%20style%3D%22fill%3Aurl%28%23SVGID%5f13%5f%29%3Bstroke%3A%23000000%3Bstroke-width%3A14.967%3Bstroke-miterlimit%3A10%3B%22%20x1%3D%22282.09%22%20y1%3D%220%22%20x2%3D%22282.09%22%20y2%3D%22917.927%22%2F%3E%0A%09%3C%2Fg%3E%0A%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top:60px;
+    transform-origin: center top;
+    animation: moveIt 2.5s ease-in-out infinite;
+    animation: oscil1 6s infinite; 
+  }
+
+.greetings{
+        margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:80%;
+
+}
+
+
+
+
+.heading1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+ .one{
+    font-size: 1.5vw;
+    line-height: 5vw;
+    word-spacing: 5px;
+    font-weight: 400;
+    color: #64ffda;
+    font-family: 'SF Mono Regular'
+} 
+
+ .heading2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.two{
+    font-size: 7vw;
+    line-height: 8vw;
+    color: #ccd6f6;
+    font-weight: 600;
+     font-family: 'Calibre-Regular'
+}
+
+.heading3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.three{
+    font-size: 7vw;
+    line-height: 8vw;
+    color: #8892b0;
+    word-spacing: 1px;
+    font-weight: 600;
+     font-family: 'Calibre-Regular'
+
+}
+.heading4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+
+.four{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #8892b0;
+    font-family: 'Calibre-Regular'
+} 
+
+
+@media only screen and (max-width: 768px){
+
+    .greetings{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:85%;
+
+    
+    }
+    #correct::after{
+        content: none
+    }
+    #correct::before{
+        content: none
+    }
+
+    .heading1{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+     .one{
+        font-size: 16px;
+        line-height: 60px;
+        word-spacing: 5px;
+        font-weight: 400;
+        color: #64ffda;
+        font-family: 'SF Mono Regular'
+    }
+
+    .heading2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;   
+    }
+    
+    .two{
+        font-size: 8vw;
+        line-height: 10vw;
+        color: #ccd6f6;
+        font-weight: 600;
+         font-family: 'Calibre-Regular'
+    }
+
+    .heading3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .three{
+        font-size: 8vw;
+        line-height: 10vw;
+        color: #8892b0;
+        word-spacing: 1px;
+        font-weight: 600;
+         font-family: 'Calibre-Regular'
+    
+    }
+
+    .heading4{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    
+    
+    
+    
+    .four{
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: 400;
+        color: #8892b0;
+        font-family: 'Calibre-Regular'
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 524px){
+
+    /* .container1{
+        margin-top: 1px;
+        
+    } */
+
+    .greetings{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:85%;
+        margin-top: 20px;
+    }
+
+    #correct::after{
+        content: none
+    }
+    #correct::before{
+        content: none
+    }
+
+    .heading1{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+    
+     .one{
+        font-size: 16px;
+        line-height: 60px;
+        word-spacing: 5px;
+        font-weight: 400;
+        color: #64ffda;
+        font-family: 'SF Mono Regular'
+    }
+
+    .heading2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        margin-top: 10px;
+  
+    }
+    
+    .two{
+        font-size: 40px;
+        line-height: 64px;
+        color: #ccd6f6;
+        font-weight: 600;
+         font-family: 'Calibre-Regular'
+    }
+
+    .heading3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+    
+    
+    .three{
+        font-size: 40px;
+        line-height: 36px;
+        color: #8892b0;
+        word-spacing: 1px;
+        font-weight: 600;
+         font-family: 'Calibre-Regular'
+    
+    }
+
+    .heading4{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    
+    
+    
+    
+    .four{
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: 400;
+        color: #8892b0;
+        font-family: 'Calibre-Regular'
+    }
+
+
+    
+}

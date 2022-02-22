@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Calibre-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre-Regular'), url('Calibre-Regular.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'SF Mono Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('SF Mono Regular'), url('SFMonoRegular.woff') format('woff');
+        }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__Section{ 
+    margin-top: 200px;   
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start ;
+    justify-content: center;
+    
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:80%;
+}
+
+.section__heading1{
+    display: flex;
+    font-size: 32px;
+    line-height: 35px;    
+    font-family: 'SF Mono Regular';
+    color: #ccd6f6;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.pic{
+    width:270px;
+    height:300px;
+    margin-top: 30px;
+    /* mix-blend-mode: multiply; */
+    filter: grayscale(100%) contrast(1);
+    
+
+}
+
+.pic img{
+    width:100%;
+    height:100%;
+    border-radius:10px 10px 10px 10px;
+}
+
+
+
+.text{
+    flex: 2;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+}
+
+.text p{
+    padding: 5px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Calibre-Regular';
+    color: #8892b0;
+
+}
+
+.ul1 {
+    margin-top:10px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    list-style-position: inside;
+    list-style-type: none;
+  }
+
+  .ul1 li{
+      padding: 5px;
+  }
+  
+
+   .ul1 li::before {
+    content: "▹";
+    left: 0px;
+    color: #64ffda;
+    font-size: 18px;
+    line-height: 15px;
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 768px){
+
+    .inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .pic{
+        align-items: center;
+        width:300px;
+        height:300px;
+        margin-top: 30px;
+        
+    
+    }
+
+    .text{
+        margin-top: 30px;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+    }
+    ul {
+    margin-top:10px ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    list-style-position: inside;
+    list-style-type: none;
+  }
+
+
+}

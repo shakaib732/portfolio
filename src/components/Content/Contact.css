@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@font-face {
+    font-family: 'Calibre-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibre-Regular'), url('Calibre-Regular.woff') format('woff');
+    }
+.contact_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact_heading{
+    margin-top: 70px;
+        width: 70%;
+}
+
+.contact_heading h3{
+    font-size: 5vw;
+    line-height: 6vw;
+    color: #ccd6f6;
+    font-weight: 600;
+    font-family: 'Calibre-Regular';
+    text-align: center;
+}
+
+.contact_message{
+    margin-top: 50px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_form{
+    margin-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_form textarea{
+    width:75vw;
+    height: 200px;
+    border: 3px solid #64ffda;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ccd6f6;
+    font-size: 25px;
+    padding: 10px;
+    
+    
+}
+
+.contact_button{
+    margin-top: 50px;
+    background-color: transparent;
+    border: 3px solid #64ffda;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #ccd6f6;
+    width: 10%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer h3{
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #ccd6f6;
+    font-family: 'Calibre-Regular';
+}
+
+footer a{
+    color: #ccd6f6;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+    .contact_heading{
+        width: 85%;
+    }
+
+    .contact_message{
+        width: 85%;
+    }
+
+    .contact_form{
+        width: 85%;
+    }
+
+    .contact_button{
+        width: 85%;
+    }
+
+    .aboutme h1{
+        font-size: 7vw;
+        line-height: 4vw;
+    
+    }
+}
